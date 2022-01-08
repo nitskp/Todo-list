@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(orange,violet) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper{
+    border: 8px black solid;
+    border-radius: 20px;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header{
+    border-bottom: dotted darkblue 5px;
+    background: linear-gradient(rgb(0, 17, 255),rgb(13, 221, 159));
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    font-size: 50px;
+    color: darkorange;
+}
+
+.wrap-list ol{
+    background: white;
+    list-style: none;
+}
+
+li{
+    width: 100%;
+    border: rgb(20, 20, 20) 1px solid;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Vujahday Script', cursive;
+}
+
+li input{
+    float: right;
+    position: relative;
+    top: 8px;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.5;
+    
+}
+
+.grey{
+    background-color: rgb(173, 171, 171);
+}
